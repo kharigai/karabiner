@@ -1,0 +1,23 @@
+set ambiwidth=double
+"colorscheme hybrid
+set clipboard+=unnamed
+
+
+set nu
+set paste
+set nowrap
+set nobackup
+set noswapfile
+set noundofile
+
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
+" バッファを保存しないで切り替え
+set hidden
+
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
