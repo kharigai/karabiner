@@ -1,0 +1,30 @@
+{
+  "settingsVersion": "1.66",
+  "exclusionRules": [
+    {
+      "pattern": "https?://mail.google.com/*",
+      "passKeys": ""
+    },
+    {
+      "pattern": "https://www.e-typing.ne.jp/*",
+      "passKeys": ""
+    }
+  ],
+  "filterLinkHints": false,
+  "waitForEnterForFilteredHints": true,
+  "hideHud": false,
+  "keyMappings": "unmapAll\n\n# Show help\nmap ? showHelp\n\n# page scroll settings\nmap j scrollDown\nmap k scrollUp\nmap <c-f> scrollPageDown\nmap <c-b> scrollPageUp\nmap gg scrollToTop\nmap G scrollToBottom\n\n# tab operation \nmap h previousTab\nmap l nextTab\nmap t createTab\nmap d removeTab\nmap u restoreTab\nmap r reload\nmap ^ visitPreviousTab\nmap g0 firstTa\nmap g$ lastTab\nmap yt duplicateTab\n\n# alternative tab operation(for mac)\nmap <c-p> previousTab\nmap <c-n> nextTab\n\n## page history\nmap H goBack\nmap L goForward\n\n## url copy and paste\nmap p openCopiedUrlInCurrentTab\nmap P openCopiedUrlInNewTab\nmap yy copyCurrentUrl\n\n## input mode\nmap i enterInsertMode\nmap v enterVisualMode\nmap gi focusInput\n\n## find mode\nmap / enterFindMode\nmap n performFind\nmap N performBackwardsFind\n\n## open link\nmap f LinkHints.activateMode\nmap F LinkHints.activateModeToOpenInNewTab\n\n## open url and bookmark\nmap o Vomnibar.activate\nmap O Vomnibar.activateInNewTab\nmap b Vomnibar.activateBookmarks\nmap B Vomnibar.activateBookmarksInNewTab",
+  "linkHintCharacters": "sadfjklewcmpgh",
+  "linkHintNumbers": "0123456789",
+  "newTabUrl": "about:newtab",
+  "nextPatterns": "next,more,newer,>,›,→,»,≫,>>",
+  "previousPatterns": "prev,previous,back,older,<,‹,←,«,≪,<<",
+  "regexFindMode": false,
+  "ignoreKeyboardLayout": false,
+  "scrollStepSize": 60,
+  "smoothScroll": true,
+  "grabBackFocus": false,
+  "searchEngines": "w: https://www.wikipedia.org/w/index.php?title=Special:Search&search=%s Wikipedia\n\n# More examples.\n#\n# (Vimium supports search completion Wikipedia, as\n# above, and for these.)\n#\n# g: https://www.google.com/search?q=%s Google\n# l: https://www.google.com/search?q=%s&btnI I'm feeling lucky...\n# y: https://www.youtube.com/results?search_query=%s Youtube\n# gm: https://www.google.com/maps?q=%s Google maps\n# b: https://www.bing.com/search?q=%s Bing\n# d: https://duckduckgo.com/?q=%s DuckDuckGo\n# az: https://www.amazon.com/s/?field-keywords=%s Amazon\n# qw: https://www.qwant.com/?q=%s Qwant",
+  "searchUrl": "https://www.google.com/search?q=",
+  "userDefinedLinkHintCss": "div > .vimiumHintMarker {\n/* linkhint boxes */\nbackground: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#FFF785),\n  color-stop(100%,#FFC542));\nborder: 1px solid #E3BE23;\n}\n\ndiv > .vimiumHintMarker span {\n/* linkhint text */\ncolor: black;\nfont-weight: bold;\nfont-size: 12px;\n}\n\ndiv > .vimiumHintMarker > .matchingCharacter {\n}"
+}
